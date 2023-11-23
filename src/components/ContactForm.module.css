@@ -1,0 +1,107 @@
+.contactsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+}
+
+.formWrapper {
+  min-height: 500px;
+}
+
+.phonebookTitle {
+  font-size: 40px;
+  text-align: center;
+}
+
+.nameInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.telWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input {
+  min-width: 300px;
+  min-height: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.filterInput {
+  min-width: 80%;
+  margin-bottom: 20px;
+  min-height: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.form {
+  min-width: 300px;
+  background-color: rgb(189, 235, 219);
+  text-align: center;
+  padding: 20px 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btnCreate {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(87, 187, 74);
+}
+
+.todoList {
+  min-width: 500px;
+}
+
+.contactsTitle {
+  font-size: 40px;
+}
+
+.contactListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(240, 251, 205);
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.contactListItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.telefon {
+  font-size: 18px;
+}
+
+.btnDelete {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 20px;
+  background-color: rgb(223, 40, 77);
+  border: none;
+  border-radius: 10px;
+}
